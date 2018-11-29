@@ -1,1 +1,2 @@
-#Check out my [website](https://paulblackburn.github.io/)!
+#Check out my website! 
+[link](https://paulblackburn.github.io/)!
