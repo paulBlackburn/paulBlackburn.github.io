@@ -43,8 +43,8 @@
 		height: 100%;
 		background-color: _palette(bg);
 		@include vendor('background-image', (
-			'url("images/overlay.png")',
-			'url("../../images/bg.jpg")'
+			'url("/cdn/overlay.png")',
+			'url("/cdn/bg.jpg")'
 		));
 		background-repeat:		repeat,			no-repeat,			no-repeat;
 		background-size:		100px 100px,	cover,				cover;
@@ -64,7 +64,7 @@
 
 			background-color: _palette(bg);
 			@include vendor('background-image', (
-				'url("images/overlay.png")'
+				'url("/cdn/overlay.png")'
 			));
 			background-repeat:		repeat,			no-repeat;
 			background-size:		100px 100px,	cover;
